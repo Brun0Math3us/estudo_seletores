@@ -56,6 +56,6 @@ div > h4{
 }
 
 /* element + element */
-aside + p {
+div + p {
     background-color: blueviolet;
 }
