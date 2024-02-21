@@ -44,3 +44,18 @@ span.ex4{
 h1, h2{
     color: purple;
 }
+
+/* element element */
+section p{
+    background-color: blueviolet;
+}
+
+/* element < element */
+div > h4{
+    background-color: blueviolet;
+}
+
+/* element + element */
+aside + p {
+    background-color: blueviolet;
+}
