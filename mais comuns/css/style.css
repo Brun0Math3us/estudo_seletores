@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(lightblue,lightcoral);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .class */
+.exemplo1{
+    background-color:white;
+}
+
+span.exemplo1{
+    background-color: black;
+    color: white;
+}
+
+/* .class1 .class2 */
+.ex1 .ex2 {
+    background-color: white;
+}
+
+/* # */
+#ex3{
+    background-color: white;
+}
+
+/* * */
+*{
+    color: black;
+}
+
+/* element.class */
+p.ex4{
+    background-color: white;
+}
+
+span.ex4{
+    background-color: black;
+    color: white;
+}
+
+/* element,element */
+
+h1, h2{
+    color: purple;
+}
