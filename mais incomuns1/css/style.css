@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(lightblue,lightcoral);
+}
+
+
+/* element ~ element */
+span + ul{
+    background-color: black;
+    color: white;
+}
+
+
+/* [atributo] */
+#exemplo2 div[class]{
+    background-color: white;
+}
+
+#exemplo2 div[id]{
+    background-color: black;
+    color: white;
+}
+
+
+/* [atributo = valor] */
+#exemplo3 div[class="ex3"]{
+    background-color: white;
+    color: black;
+}
+
+#exemplo3 div[class="exemplo3"]{
+    background-color: black;
+    color: white;
+}
+
+
+/* [atributo ~ = valor] */
+[title~=exemplo]{
+    background-color: white;
+    color: black;
+}
+
+
+/* [ atributo |= valor ] */
+[class|="oi"]{
+    background-color: black;
+    color: white;
+}
+
+
+/* [ atributo ^= valor ] */
+[class^="hello"]{
+    background-color: black;
+    color: white;
+}
+
+
+/* [ atributo $= valor ] */
+[class$="boy"]{
+    background-color: black;
+    color: white;
+}

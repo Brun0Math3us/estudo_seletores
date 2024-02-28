@@ -7,6 +7,108 @@
         <title>seletores 2</title>
     </head>
     <body>
-        <h1>Seletores 2</h1>
+        <h1>Seletores</h1>
+
+    <section id="exemplo1">
+        <!-- element ~ element -->
+        <h2>element ~ element</h2>
+        <p>O seletor elemento1 ~ elemento2 interfere em
+        todos os elementos2 colocados após o elemento1</p>
+
+        <span>exemplo1</span>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <p>exemplo1</p>
+        <div>exemplo1</div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </section>
+    
+    <section id="exemplo2">
+        <!-- [atributo] -->
+        <h2>[atributo]</h2>
+        <p>O seletor [ atributo ] é usado para selecionar
+        elementos com o atributo especificado.</p>
+
+        <div class="exemplo2">exemplo2</div>
+        <div id="exemplo2">exemplo2</div>
+    </section>
+
+    <section id="exemplo3">
+        <!-- [atributo = valor] -->
+        <h2>[atributo = valor]</h2>
+        <p>O seletor [ atributo = valor ] é usado para
+        selecionar elementos com o atributo e valor especificados.</p>
+
+        <div class="ex3">exemplo3</div>
+        <div class="exemplo3">exemplo3</div>
+        <div class="ex3">exemplo3</div>
+        <div class="exemplo3">exemplo3</div>
+    </section>
+
+    <section id="exemplo4">
+        <!-- [atributo ~ = valor] -->
+        <h2>[atributo ~ = valor]</h2>
+        <p>O seletor [ atributo ~= valor ] é usado para selecionar
+        elementos com um valor de atributo contendo uma palavra especificada.
+        os elementos que tiverem a palavra chave como valor, serão modificados.</p>
+
+        <div title="exemplos">exemplo4</div>
+        <div title="exemplar">exemplo4</div>
+        <div title="exemplo">exemplo4</div>
+        <div title="exemplo44">exemplo4</div>
+        <div title="exemplo">exemplo4</div>
+    </section>
+
+    <section id="exemplo5">
+        <!-- [ atributo |= valor ] -->
+        <h2>[ atributo |= valor ]</h2>
+        <p>O seletor [ atributo |= valor ] é usado para selecionar
+            elementos com o atributo especificado começando com o
+            valor especificado.
+            Nota: O valor deve ser uma palavra inteira, isoladamente,
+            como lang="en", ou seguida de um hífen( - ), como lang="en-us"
+        </p>
+
+        <div class="aoi">1</div>
+        <div class="oia">2</div>
+        <div class="oi a">3</div>
+        <div class="oi-a">4</div>
+        <div class="oi">5</div>
+    </section>
+
+    <section id="exemplo6">
+        <!-- [ atributo ^= valor ] -->
+        <h2>[ atributo ^= valor ]</h2>
+        <p>O seletor [ atributo ^= valor ] corresponde a cada
+        elemento cujo valor de atributo começa com um valor especificado .</p>
+
+        <div class="hello">1</div>
+        <div class="aahello">2</div>
+        <div class="hello aa">3</div>
+        <div class="helloaa">4</div>
+        <div class="hello-aa">5</div>
+    </section>
+
+    <section id="exemplo7">
+        <!-- [ atributo $= valor ] -->
+        <h2>[ atributo $= valor ]</h2>
+        <p>O seletor [ atributo $= valor ] corresponde a cada 
+        elemento cujo valor do atributo termina com um valor especificado .</p>
+
+        <div class="boy">1</div>
+        <div class="aaboy">2</div>
+        <div class="boy aa">3</div>
+        <div class="boyyaa">4</div>
+        <div class="boy-aa">5</div>
+        <div class="aa-boy">4</div>
+        <div class="aa boy">5</div>
+    </section>
     </body>
 </html>
