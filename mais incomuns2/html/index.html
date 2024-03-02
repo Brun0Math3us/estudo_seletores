@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>seletores</title>
+        <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+    <body>
+        <h1>seletores mais incomuns 2</h1>
+
+        <!-- :active -->
+        <section id=":active">
+            <h2>:active</h2>
+            <p>O :activeseletor é usado para selecionar e estilizar o link ativo.
+            Um link se torna ativo quando você clica nele.
+            O seletor :active pode ser usado em todos os elementos, não apenas em links.
+            :active DEVE vir depois de :hover (se presente) na definição CSS para ser eficaz!</p>
+
+                <a href="https://www.youtube.com/" class="youtube">youtube</a> <br><br>
+                <a href="https://twitter.com/home?lang=pt-br" class="twitter">twitter</a>
+                <p class="instagram">instagram</p>
+                <span class="facebook">facebook</span>
+        </section>
+
+        <!-- ::after -->
+        <section id="::after">
+            <h2>::after</h2>
+            <p>O ::after insere algo após o conteúdo de cada elemento(s) selecionado(s)
+            Use a propriedade "content" para especificar o conteúdo a ser inserido.</p>
+
+            <h3 class="nerd">eu sou nerd</h3>
+            <p class="rico">eu sou rico</p>
+        </section>
+
+        <!-- ::before -->
+        <section id="::before">
+            <h2>::before</h2>
+            <p>O ::before insere algo antes do conteúdo de cada elemento(s) selecionado(s).
+            use a propriedade "content" para especificar o conteúdo a ser inserido.</p>
+
+            <p class="love">I love you :)</p>
+            <p class="hate">I hate you >:(</p>
+        </section>
+
+        <section id=":checked">
+        <!-- :checked -->
+            <h2>:checked</h2>
+            <p>O :checked corresponde a cada elemento "input" verificado
+            (apenas para botões de opção e caixas de seleção) e elemento "option".</p>
+
+            <form action="#">
+                <input type="checkbox" checked class="azul">
+                <label for="azul">azul</label><br>
+                <input type="checkbox" class="vermelho">
+                <label for="vermelho">vermelho</label><br>
+                <input type="checkbox" class="amarelo">
+                <label for="amarelo">amarelo</label><br>
+
+                <input type="radio" checked="checked" class="azul" name="cores">
+                <label for="azul">azul</label><br>
+                <input type="radio" class="vermelho" name="cores">
+                <label for="vermelho">vermelho</label><br>
+                <input type="radio" class="amarelo" name="cores">
+                <label for="amarelo">amarelo<label><br><br><br>
+            </form>
+        </section>
+
+        <!-- :default -->
+        <section id=":default">
+            <h2>:default</h2>
+            <p>O :default seleciona o elemento verificado (checked) de formulário em um grupo de elementos relacionados.
+            O seletor :default só pode ser usado nos elementos "button", "input type="checkbox", "input type="radio" e "option"</p>
+
+            <form action="#">
+                <input type="checkbox" class="pain" checked>
+                <label for="pain">pain</label><br><br>
+
+                <input type="radio" class="kanids" checked>
+                <label for="kanids">kanids</label>
+            </form>
+        </section>
+    </body>
+</html>

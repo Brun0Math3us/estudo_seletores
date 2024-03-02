@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(lightgreen,white);
+}
+
+/* :active */
+.youtube:active, .twitter:active, .instagram:active, .facebook:active{
+    background-color: green;
+    color: white;
+}
+
+/* ::after */
+.nerd::after{
+    content: " - é verdade esse bilhete";
+    color: white;
+    background-color: black;
+}
+
+.rico::after{
+    content: " - é mentira esse bilhete";
+    color: white;
+    background-color: black;
+}
+
+/* ::before */
+.love::before{
+    content: "leia isso: ";
+    color: white;
+    background-color: black;
+}
+
+.hate::before{
+    content: "não leia isso: ";
+    color: white;
+    background-color: black;
+}
+
+/* :checked */
+input:checked{
+    width: 50px;
+    height: 40px;
+}
+
+/* :default */
+.pain:default{
+    box-shadow: 0 0 5px 8px black;
+}
+
+.kanids:default{
+    box-shadow: 0 0 5px 5px red;
+}
