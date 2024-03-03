@@ -48,3 +48,47 @@ input:checked{
 .kanids:default{
     box-shadow: 0 0 5px 5px red;
 }
+
+/* :disabled */
+input:disabled{
+    background: lightblue;
+    color: black;
+}
+
+.azul{
+    background: blue;
+    color: white;
+}
+
+.amarelo{
+    background: yellow;
+    color: white;
+}
+
+option:disabled{
+    background: lightcoral;
+}
+
+/* :empty */
+p:empty{
+    background: rgb(255, 0, 170);
+    width: 90px;
+    height: 30px;
+}
+
+h2:empty{
+    background: rgb(169, 59, 192);
+    width: 90px;
+    height: 30px;
+}
+
+div:empty{
+    background: blue;
+    width: 90px;
+    height: 30px;
+}
+
+/* :enabled */
+input:enabled{
+    background: lightcoral;
+}

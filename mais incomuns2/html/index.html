@@ -80,5 +80,56 @@
                 <label for="kanids">kanids</label>
             </form>
         </section>
+
+        <!-- :disabled -->
+        <section id=":disabled">
+            <h2>:disabled</h2>
+            <p>O :disabled corresponde a cada elemento 
+            desabilitado (usado principalmente em elementos de formulário).</p>
+            
+            <form>
+                <input type="text" value="desabilitado" disabled><br>
+                <input type="text" class="azul" value="habilitado"><br>
+                <input type="text" value="desabilitado" disabled><br>
+                <input type="text" class="amarelo" value="habilitado"><br>
+                <input type="text" value="desabilitado" disabled><br>
+            </form><br><br>
+
+            <form>
+                <select>
+                    <option value="aaa" disabled>desabilitado</option>
+                    <option value="bbb">habilitado</option>
+                    <option value="ccc" disabled>desabilitado</option>
+                    <option value="ddd">habilitado</option>
+                    <option value="eee" disabled>desabilitado</option>
+                </select>
+            </form>
+        </section>
+
+        <!-- :empty -->
+        <section id=":emtpy">
+            <h2>:empty</h2>
+            <p>O :empty corresponde a todos os elementos 
+            que não possuem filhos (incluindo nós de texto).</p>
+
+            <p></p>
+            <h2></h2>
+            <div></div>
+        </section>
+
+        <!-- :enabled -->
+        <section id=":enabled">
+            <h2>:enabled</h2>
+            <p>O :enabled corresponde a cada elemento 
+            habilitado (usado principalmente em elementos de formulário).</p>
+
+            <form>
+                <input type="text" value="habilitado"><br>
+                <input type="text" disabled value="desabilitado"><br>
+                <input type="text" value="habilitado"><br>
+                <input type="text" disabled value="desabilitado"><br>
+                <input type="text" value="habilitado"><br>
+            </form>
+        </section>
     </body>
 </html>
