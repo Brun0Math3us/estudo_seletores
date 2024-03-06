@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Seletores</title>
+        <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+    <body>
+        <h1>Seletores mais incomuns 3</h1>
+
+        <!-- :first-child -->
+        <section id=":first-child">
+            <h2>:first-child</h2>
+            <p>O :first-child é usado para selecionar o seletor 
+            especificado somente se ele for o primeiro filho de seu pai.
+            É preciso que o elemento filho esteja logo após o elemento pai.</p>
+
+            <div>
+                <p class="crianca">1</p>
+                <p class="crianca">2</p>
+            </div>
+
+            <span>
+                <p class="crianca">3</p>
+                <p class="crianca">4</p>
+                <p class="crianca">5</p>
+            </span>
+
+            <span>
+                <h3 class="crianca">6</h3>
+                <h3 class="crianca">7</h3>
+                <h3 class="crianca">8</h3>
+            </span>
+        </section>
+
+        <!-- ::first-letter -->
+        <section id="::first-letter">
+            <h2>::first-letter</h2>
+            <p>O ::first-letter é usado para adicionar 
+            um estilo à primeira letra do seletor especificado.</p>
+
+            <h4>Bruno</h4>
+            <h4>Matheus</h4>
+            <h4>Benedett</h4>
+        </section>
+
+        <!-- ::first-line -->
+        <section id="::first-line">
+            <h2>::first-line</h2>
+
+            <p class="linha">
+            Nunc ut tincidunt neque. Nam in neque eleifend, 
+            malesuada sem in, laoreet ligula. Duis molestie magna 
+            eget sem eleifend, vitae porta ex scelerisque. 
+            Nullam varius dictum fermentum. Suspendisse vel urna lectus. 
+            Etiam non posuere lectus. Fusce ut nisi aliquam, volutpat ex eu, 
+            viverra lectus.
+            </p>
+        </section>
+
+        <!-- :first-of-type -->
+        <section id=":first-of-type">
+            <h2>:first-of-type</h2>
+            <p>O :first-of-typeseletor corresponde a cada elemento 
+            que é o primeiro filho, de um tipo específico, de seu pai.
+            O elemento filho não precisa estar logo em seguida do elemento pai.</p>
+            <div>
+                <p class="tipo">1</p>
+                <p class="tipo">2</p>
+                <p class="tipo">3</p>
+                <p class="tipo">4</p>
+            </div>
+        </section>
+
+        <!-- :focus -->
+        <section id=":focus">
+            <h2>:focus</h2>
+            <p>O :focusseletor é usado para selecionar o elemento que está em foco.
+            Dica: O seletor :focus é permitido em elementos que aceitam eventos 
+            de teclado ou outras entradas do usuário.</p>
+
+            <input type="text" placeholder="nome"> <br>
+            <input type="email" placeholder="email"> <br>
+            <input type="tel" placeholder="telefone"> <br>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(lightpink,lightblue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+}
+
+/* :first-child */
+
+.crianca:first-child, h3:first-child{
+    background: black;
+    color: white;
+}
+
+/* ::first-letter */
+h4::first-letter{
+    font-size: 24px;
+    color: lightcoral;
+}
+
+/* ::first-line */
+.linha::first-line{
+    color: black;
+    background: lightcoral;
+}
+
+/* :first-of-type */
+.tipo:first-of-type{
+    color: lightcoral;
+    font-size: 25px;
+}
+
+/* :focus */
+input:focus{
+    background: lightcoral;
+}
+
