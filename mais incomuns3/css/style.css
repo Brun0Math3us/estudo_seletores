@@ -34,3 +34,31 @@ input:focus{
     background: lightcoral;
 }
 
+/* :hover */
+.hover:hover{
+    font-size: 30px;
+    color: lightcoral;
+    transition: .4s;
+}
+
+/* :in-range */
+.ranger:in-range{
+    background: lightblue;
+}
+
+/* :invalid */
+
+.invalido{
+    color: black;
+    background: lightblue;
+}
+.invalido:invalid{
+    background: lightcoral;
+    color: black;
+}
+
+/* :lang() */
+p:lang(en){
+    background: lightcoral;
+    color: black;
+}

@@ -76,13 +76,63 @@
         <!-- :focus -->
         <section id=":focus">
             <h2>:focus</h2>
-            <p>O :focusseletor é usado para selecionar o elemento que está em foco.
+            <p>O :focus é usado para selecionar o elemento que está em foco.
             Dica: O seletor :focus é permitido em elementos que aceitam eventos 
             de teclado ou outras entradas do usuário.</p>
 
             <input type="text" placeholder="nome"> <br>
             <input type="email" placeholder="email"> <br>
             <input type="tel" placeholder="telefone"> <br>
+        </section>
+
+        <!-- :hover -->
+        <section id=":section">
+            <h2>:hover</h2>
+            <p>O :hoverseletor é usado para selecionar elementos 
+            quando você passa o mouse sobre eles. :hover DEVE vir 
+            depois de :link e :visited (se estiverem presentes) 
+            na definição CSS, para ser eficaz!</p>
+
+            <div class="hover">exemplo1</div>
+            <div class="hover">exemplo2</div>
+            <div class="hover">exemplo3</div>
+        </section>
+
+        <!-- :in-range -->
+        <section id=":in-range">
+            <h2>:in-range</h2>
+            <p>O :in-range seleciona todos os elementos 
+            com um valor que esteja dentro de um intervalo especificado.
+            O seletor :in-range funciona apenas para elementos 
+            de entrada com atributos min e/ou max!</p>
+
+            <input class="ranger" type="number" min="5" max="10">
+        </section>
+
+        <!-- :invalid -->
+        <section id=":invalid">
+            <h2>:invalid</h2>
+            <p>O :invalid seleciona elementos do formulário com um valor 
+            que não é validado de acordo com as configurações do elemento.
+            O seletor :invalid funciona apenas para elementos de formulário 
+            com limitações, como elementos de entrada com atributos mínimo e 
+            máximo, campos de e-mail sem e-mail legal ou campos numéricos sem 
+            valor numérico, etc.</p>
+
+            <input type="email" class="invalido" value="não é um email">
+            <input type="number" class="invalido" min="5" max="10">
+        </section>
+
+        <!-- :lang() -->
+        <section id=":lang()">
+            <h2>:lang()</h2>
+            <p>O :lang() é usado para selecionar elementos com um atributo 
+            lang com a língua especificada. Observação: o valor do atributo 
+            lang geralmente é um código de idioma de duas letras, 
+            como lang="fr" (para francês), ou dois códigos de idioma combinados, 
+            como lang="fr-ca" (para francês canadense).</p>
+
+            <p lang="en">HELLO!</p>
         </section>
     </body>
 </html>
