@@ -134,5 +134,49 @@
 
             <p lang="en">HELLO!</p>
         </section>
+
+        <!-- :last-child -->
+        <section id=":last-child">
+            <h2>:last-child</h2>
+            <p>O :last-child corresponde a cada elemento 
+            que é o último filho de seu pai.
+            Dica: p:last-child é igual a p:nth-last-child(1).</p>
+
+            <div>
+                <p class="ultima">1</p> 
+                <p class="ultima">2</p> 
+                <p class="ultima">3</p> 
+                <p class="ultima">4</p> 
+                <p class="ultima">5</p> 
+            </div>
+        </section>
+
+        <!-- :last-of-type -->
+        <section id="last-of-type">
+            <h2>:last-of-type</h2>
+            <p>O :last-of-type corresponde a cada elemento que é o último filho, 
+            de um tipo de elemento específico, de seu pai.
+            Dica: Isto é o mesmo que :nth-last-of-type(1).</p>
+
+            <div>
+                <p class="tipoo">1</p>
+                <p class="tipoo">2</p>
+                <p class="tipoo">3</p>
+                <p class="tipoo">4</p>
+                <p class="tipoo">5</p>
+                <h2>6</h2>
+                <h3>7</h3>
+                <span>8</span>
+            </div>
+        </section>
+
+        <!-- :link -->
+        <section id=":link">
+            <h2>:link</h2>
+            <p>O :link é usado para selecionar links não visitados.
+            Nota: O seletor :link não estiliza links que você já visitou.</p>
+
+            <a href="#">link ativo</a>
+        </section>
     </body>
 </html>

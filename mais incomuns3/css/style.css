@@ -62,3 +62,19 @@ p:lang(en){
     background: lightcoral;
     color: black;
 }
+
+/* :last-child */
+.ultima:last-child{
+    background: lightcoral;
+    color: black;
+}
+
+/* last-of-type */
+.tipoo:last-of-type{
+    background: lightcoral;
+    color: black;
+}
+
+a:link{
+    color: lightcoral;
+}
