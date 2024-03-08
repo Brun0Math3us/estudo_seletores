@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(lightblue,lightcoral);
+    background-repeat: no-repeat;
+}
+
+/* ::marker */
+::marker{
+    color: white;
+}
