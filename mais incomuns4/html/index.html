@@ -28,5 +28,61 @@
                 <li>3</li>
             </ul>
         </section>
+
+
+        <!-- :not(seletor) -->
+        <section id=":not(seletor)">
+            <h2>:not(seletor)</h2>
+            <p>O seletor corresponde a cada elemento que NÃO 
+            é o elemento/seletor especificado.</p>
+
+            <div class="não">exemplo 1</div>
+            <p class="não">exemplo 2</p>
+            <span class="não">exemplo 3</span>
+            <h3 class="não">exemplo 4</h3>
+            <h4 class="não"> exemplo 5</h4>
+        </section>
+
+        <!-- :nth-child() -->
+        <section id=":nth-child()">
+            <h2>:nth-child()</h2>
+            <p>O seletor corresponde a cada elemento que é o enésimo
+            filho de seu pai. :nth-child(n)
+            n pode ser um número, uma palavra-chave 
+            (ímpar ou par) ou uma fórmula (como an + b ).</p>
+
+            <div>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+            </div>
+        </section>
+
+        <!-- :nth-last-of-type(n) -->
+        <section id=":nth-last-of-type(n)">
+            <h2>:nth-last-of-type(n)</h2>
+            <p>O seletor corresponde a cada elemento que é o enésimo filho, 
+            de um tipo específico, de seu pai, contando a partir do último filho. 
+            :nth-last-of-type(n) n pode ser um número, uma palavra-chave 
+            ou uma fórmula. Ímpar e par são palavras-chave que podem ser 
+            usadas para corresponder a elementos filhos cujo índice é ímpar 
+            ou par (o índice do primeiro filho é 1).</p>
+
+            <div>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+            </div>
+        </section>
     </body>
 </html>

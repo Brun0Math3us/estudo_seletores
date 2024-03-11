@@ -7,3 +7,27 @@ body{
 ::marker{
     color: white;
 }
+
+/* :not(seletor) */
+.não:not(h3,p){
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* :nth-child() */
+p:nth-child(4){
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* :nth-last-of-type() */
+span:nth-last-of-type(even){
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+}
+
+span:nth-last-of-type(odd){
+    color: black;
+    text-shadow: 1px 1px white;
+}
